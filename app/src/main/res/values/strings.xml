@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Dash Dining</string>
+
+    <string name="instructions">Using The App</string>
+    <string name="initial_start_up"><u>Initial Start Up</u></string>
+    <string name="screen_one">When you first open the application you should see a wheel that is divided into eight different food categories.
+        If you press the "SPIN!" button you will see the wheel spin! When it comes to a stop it will be on a random food category. The bar above
+        the wheel is an adjustable bar that determines how far away you are willing to travel to. The application will return restaurants within
+        the distance you choose. </string>
+    <string name="restaurant_display"><u>Restaurant Display</u></string>
+    <string name="screen_two">After having spun the wheel you will be brought to another screen that will display the random restaurant that was
+        chosen for you based on the random food category that you landed on. This restaurant will have a rating of at least 4 stars on Yelp and will
+        be within the radius that you have provided.</string>
+    <string name="share_visit"><u>Share/Visit</u></string>
+    <string name="screen_three">From the restaurant display screen you have a few choices. You can choose to share this restaurant and its information
+        with your contacts or you can choose to view directions to this restaurant from your current location (If you encounter any issues related to
+        the directions feature, please ensure that you gave the app permission to use location service).</string>
+
+    <string name="yelp_intro">This application utilizes the Yelp API in order to display restaurants to the user. Specifically,
+    the application uses the "business search" feature of the API. The various parameters that can be obtained using this feature
+    of the API can be found at:</string>
+    <string name="yelp_link">    https://www.yelp.com/developers/documentation/v3/business_search</string>
+    <string name="yelp_paragraph2">The application accesses the latitude and longitude of nearby restaurants in order to return a
+    restaurant to the user that is within the provided range radius. The app also fetches the rating of the restaurants in order
+    to assure that only restaurants with four stars and above are returned.</string>
+
+    <string name="question1">\"Why do I need to grant the app permission to use my location?\"</string>
+    <string name="answer1">The application requests to access your location in order to provide you with directions from your current location
+    to the restaurant.</string>
+    <string name="question2">\"How can I view more than one review for each restaurant?\"</string>
+    <string name="answer2">By clicking on the \"Yelp Profile\" button you can be brought to the official Yelp page for that given restaurant. This
+    page will contain more than one review!</string>
+    <string name="question3">\"Is there a limited number of restaurants for each of the categories?\"</string>
+    <string name="answer3">The application utilizes the information provided by Yelp to access the restaurants that are displayed. If the restaurant
+    is within your selected radius and is on Yelp, it can show up!</string>
+
+</resources>

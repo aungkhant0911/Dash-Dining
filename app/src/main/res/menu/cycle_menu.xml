@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/item_how"
+        android:icon="@drawable/manual_help"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/item_faq"
+        android:icon="@drawable/faq_help"
+        tools:ignore="MenuTitle" />
+
+    <item
+        android:id="@+id/item_yelp"
+        android:icon="@drawable/yelp_help"
+        tools:ignore="MenuTitle" />
+
+</menu>

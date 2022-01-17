@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:weightSum="11.5"
+    tools:context="com.aungkhant.DashDining.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1.5"
+        android:background="#00F30A0A"
+        android:fontFamily="@font/bebas_nue"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/app_name"
+        android:textColor="@color/primary"
+        android:textSize="50dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp">
+
+        <com.ramotion.fluidslider.FluidSlider
+            android:id="@+id/fluidSlider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fadeScrollbars="false"
+            android:fadingEdge="horizontal|vertical"
+            app:bar_color="#EDE25529"
+            app:bar_text_color="#FCFAF9"
+            app:bubble_color="#F8F5F5"
+            app:duration="@android:integer/config_mediumAnimTime"
+            app:size="small" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <ImageView
+            android:id="@+id/wheel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:layout_weight="7"
+            android:onClick="spinWheel"
+            android:paddingTop="5dp"
+            android:src="@drawable/wheel" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingRight="0dp"
+            android:src="@drawable/arrow" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+
+        <com.cleveroad.sy.cyclemenuwidget.CycleMenuWidget
+            android:id="@+id/itemCycleMenuWidget"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cm_autoMaxRadius="200dp"
+            app:cm_autoMinRadius="75dp"
+            app:cm_background="@color/primary"
+            app:cm_collapsed_radius="40dp"
+            app:cm_corner="right_bottom"
+            app:cm_corner_image_src="@drawable/cornor_image"
+            app:cm_fixedRadius="180dp"
+            app:cm_item_background_tint="#ECE9E2"
+            app:cm_radius_scale_type="fixed"
+            app:cm_ripple_color="#009933"
+            app:cm_scroll_type="endless" />
+    </FrameLayout>
+
+
+</LinearLayout>

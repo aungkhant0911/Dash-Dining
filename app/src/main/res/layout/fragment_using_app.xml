@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        tools:context="com.aungkhant.DashDining.UsingAppFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/primary"
+            android:text="@string/instructions"
+            android:textSize="50dp"
+            android:fontFamily="@font/bebas_nue"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_medium"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorButton"
+            android:text="@string/initial_start_up"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_light"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightText"
+            android:text="@string/screen_one"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_medium"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorButton"
+            android:text="@string/restaurant_display"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_light"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightText"
+            android:text="@string/screen_two"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_medium"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorButton"
+            android:text="@string/share_visit"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:fontFamily="@font/oswald_light"
+            android:background="@color/textBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/lightText"
+            android:text="@string/screen_three"
+            android:textSize="18dp"/>
+
+    </LinearLayout>
+</ScrollView>
